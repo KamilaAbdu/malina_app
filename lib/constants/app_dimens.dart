@@ -7,5 +7,11 @@ class AppDimens {
   static const double verticalLargePadding = 24;
   static const double mainPageElementHeight = 170;
   static const double mainPageQrElementHeight = 90;
+  static const double mainPageCartSelectionPadding = 11;
+  static const double mainPageCartSelectionHeight = 197;
+  static const double mainPageCartSelectionWidth = 70;
+  static const double selectCartBorderRadius = 50;
+
+
 
 }

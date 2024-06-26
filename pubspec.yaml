@@ -9,26 +9,26 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_native_splash: ^2.4.0
+  google_fonts: ^6.2.1
+
+flutter_native_splash:
+  color: "#F72055"
+  image: assets/logo.png
+  android: true
+  ios: true
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
-  flutter_native_splash: ^2.0.6
+  flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
   assets:
     - assets/images/
     - assets/icons/
-
   fonts:
     - family: MainFont
       fonts:
         - asset: assets/fonts/main_font_sf_pro_display.otf
-
-flutter_native_splash:
-  color: "#F72055"  # Цвет фона заставки
-  image: assets/images/logo.png  # Путь к изображению заставки
-  android: true
-  ios: true

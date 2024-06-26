@@ -8,12 +8,15 @@ import 'package:malina_app/widgets/home_page/horizontal_scrolling_list.dart';
 import 'package:malina_app/widgets/home_page/main_elements.dart';
 import 'package:malina_app/widgets/home_page/qr_scan.dart';
 import 'package:malina_app/widgets/home_page/search_field.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
+
 
 class MainPage extends StatelessWidget {
   const MainPage({super.key});
 
   @override
   Widget build(BuildContext context) {
+    FlutterNativeSplash.remove();
     return Scaffold(
       bottomNavigationBar: const MainPageBottomNavigationBar(),
       body: SafeArea(
